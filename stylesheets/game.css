@@ -1,0 +1,37 @@
+.background {
+	background: #00A2FF;
+	border-spacing: 0;
+	table-layout: fixed;
+}
+
+.background td {
+	padding: 0;
+}
+
+.lava {
+	background: #FF6363;
+}
+
+.wall {
+	background: white;
+}
+
+.actor {
+	position: absolute;
+}
+
+ .coin {
+ 	background: #F1E559;
+ 	border-radius: 5px;
+ }
+
+ .player {
+ 	background: #424242;
+ }
+
+ .game {
+ 	overflow: hidden;
+ 	max-width: 600px;
+ 	max-height: 450px;
+ 	position: relative;
+ }

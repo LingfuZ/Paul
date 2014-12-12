@@ -63,6 +63,7 @@ function Level(plan) {
 *                 or null
 */
 Level.prototype.collideWith = function (position, size) {
+
   var top = Math.ceil(position.y + size.y);
   var bottom = Math.floor(position.y);
   var left = Math.floor(position.x);
@@ -88,7 +89,7 @@ Level.prototype.collideWith = function (position, size) {
       }
     }
   }
-  // return result;
+
 }
 
 /**
@@ -529,7 +530,8 @@ function resetGame(plan, view, ViewEngine) {
 function startGame(plan, ViewEngine) {
 
   var level = new Level(plan);
-  var view = new ViewEngine(document.body, level);
+  var parent = document.body.getElementsByClassName('game-wrapper')[0];
+  var view = new ViewEngine(parent, level);
   enableGameplay(function (step) {
 
     level.enableActors(step, pressedKeys);

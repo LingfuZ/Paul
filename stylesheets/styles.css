@@ -630,11 +630,11 @@ th {
 td {
   text-align: left;
   padding: 5px 10px;
-  border-bottom: 1px solid #e5e5e5;
-  border-right: 1px solid #ffcc00;
+  /*border-bottom: 1px solid #e5e5e5;*/
+  /*border-right: 1px solid #ffcc00;*/
 }
 td:first-child {
-  border-left: 1px solid #ffcc00;
+  /*border-left: 1px solid #ffcc00;*/
 }
 
 hr {

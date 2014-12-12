@@ -5,8 +5,8 @@ var simpleLevelPlan = [
 " x $ x            - x  ",
 "             $ $    x  ",
 "     @      xxxxx   x  ",
-"xxxxxxxx            x  ",
-"xxxxxxxx!!!!!!!!!!!!x  ",
+" xxxxxxx            x  ",
+" xxxxxxx!!!!!!!!!!!!x  ",
 " xxxxxxxxxxxxxxxxxxxx  ",
 "                       "
 ];
